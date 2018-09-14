@@ -1,0 +1,50 @@
+/* Application-wide Styles */
+h1 {
+    color: rgb(63, 68, 73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[text], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+  }
+  .fullframe
+  {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    background-image: url('./../../images/AdobeStock_108702026.jpeg');/* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-repeat:no-repeat;
+    height:25%;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-attachment:fixed;
+    background-position: top center;
+    background-size: contain;
+    position: relative;
+    margin: 0 ;
+    padding: 0;
+    display: block;
+    text-align: left;
+
+  }
+  .brandingHLogo{
+    height: 95%;
+    width: 20%;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
